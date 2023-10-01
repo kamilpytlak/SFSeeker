@@ -1,0 +1,2 @@
+nvidia-cuda-toolkit
+nvidia-cuda-toolkit-gcc
