@@ -9,6 +9,7 @@ sentence-transformers = "*"
 numpy = "*"
 pandas = "*"
 torch = "==2.0.0"
+transformers = {extras = ["torch"], version = "*"}
 
 [dev-packages]
 
