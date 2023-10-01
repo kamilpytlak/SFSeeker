@@ -8,8 +8,7 @@ streamlit = "*"
 sentence-transformers = "*"
 numpy = "*"
 pandas = "*"
-torch = "==2.0.0"
-transformers = {extras = ["torch"], version = "*"}
+transformers = {extras = ["torch"], version = "2.0.0"}
 
 [dev-packages]
 
