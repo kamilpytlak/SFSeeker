@@ -17,6 +17,8 @@
   <a href="#license">License</a>
 </p>
 
+![screenshot](img/semantic_search.jpg)
+
 <p align="center">
 SF Seeker is an AI assistant designed for Sci-Fi Stack Exchange, utilizing an all-MiniLM-L6-v2 language model. It helps users improve their question-writing skills and find similar questions on the Sci-Fi Stack Exchange website. This tool leverages a database of 71,013 questions to locate semantically similar questions, reducing the likelihood of creating duplicate threads. Additionally, SF Seeker is in the process of developing a feature that identifies words in questions that affect the likelihood of receiving answers, assisting users in formulating more precise inquiries. This feature uses a model trained with gradient reinforcement based on TF-IDF features.
 </p>
@@ -27,8 +29,9 @@ SF Seeker is an AI assistant designed for Sci-Fi Stack Exchange, utilizing an al
 *  👨‍⚕️ [IN PROGRESS] Indicates words in a question that have a negative and positive effect on the chance of getting an answer. It supports the process of arranging more precise questions. A model based on gradient reinforcement learned using TF-IDF features was used.
 
 ## How To Use
-
-Currently, there is a way to use this app locally by cloning the repository (using git or by downloading it directly from the website), install the dependencies from the configuration file `Pipfile` and launch the app locally using a browser.
+There are two ways to use this app:
+1. Via the website https://huggingface.co/spaces/kamil-pytlak/SFSeeker
+2. Locally by cloning the repository (using git or by downloading it directly from the website), install the dependencies from the configuration file `Pipfile` and launch the app locally using a browser.
 
 ```bash
 # Clone this repository
