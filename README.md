@@ -10,7 +10,7 @@
 <h4 align="center">An AI assistant with a semantic engine/question writing tutor in Sci-Fi Stack Exchange service<br>built on top of <a href="https://streamlit.io/" target="_blank">Streamlit</a>.</h4>
 
 <p align="center">
-  <a href="#key-features">Features</a> •
+  <a href="#features">Features</a> •
   <a href="#how-to-use">How To Use</a> •
   <a href="#contact">Contact</a> •
   <a href="#credits">Credits</a> •
@@ -63,7 +63,7 @@ This software uses the following open source packages:
 - [scikit-learn-intelex](https://intel.github.io/scikit-learn-intelex/)
 - [xgboost](https://xgboost.readthedocs.io/en/latest/index.html)
 - [sentence-transformers](https://www.sbert.net/)
-- 
+
 ## License
 MIT
 
